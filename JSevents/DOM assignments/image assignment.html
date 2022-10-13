@@ -1,8 +1,13 @@
 <html>
     <head>
-        <script src="./6event.js" type="image/javascript"></script>
+        <script type="text/javascript">
+            function setNewImage()
+            {
+                document.getElementById("slide1").src="slide2.jpg";
+                       }
+        </script>
+        <body>
+            <img id="slide1" onmouseover="setNewImage()" src="slide1.jpg" width="500"/>
+        </body>
     </head>
-    <body>
-        <img src="./slide1.jpg" onclick="changeimage" img src="slide1.jpg" id="abc"/>
-    </body>
 </html>

@@ -1,4 +1,4 @@
 function changeimage(){
-    document.getElementById.style.slide2.jpg
+    document.images.slide2.jpg
 
 }

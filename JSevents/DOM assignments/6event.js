@@ -1,3 +1,4 @@
-function changecolor5(){
-    document.getElementById('abc')
- }
+function getData(){
+   console.log(document.getElementById('abc').value)
+   document.getElementById('abc').value=abc.toUppercase()
+}
