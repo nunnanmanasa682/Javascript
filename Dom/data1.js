@@ -10,7 +10,7 @@ let users=[{"id":1,"name":"May","email":"Franzen","gender":"mfranzen0@ca.gov"},
 {"id":10,"name":"Pedro","email":"Rosenzveig","gender":"prosenzveig9@huffingtonpost.com"}]
 function displayUsers() {
     let rows = ""
-    for (users of users) {
+    for (user of users) {
         rows = rows + `<tr>
                         <td>${user.id}</td>
                         <td>${user.name}</td>
