@@ -1,5 +1,4 @@
-class Account
-{
+class Account{
     acc_id;
     acc_name;
     acc_Amount;
