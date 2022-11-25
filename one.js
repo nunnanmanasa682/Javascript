@@ -27,3 +27,8 @@ console.log(a+i);
 console.log(a*i);
 console.log(a+j);
 console.log(a*j);
+ 
+var d=10;
+console.log(d);
+var j="manasa"
+console.log(j);

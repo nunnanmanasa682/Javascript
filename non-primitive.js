@@ -1,3 +1,4 @@
-var size={'s','m','l','xl'}
-var size=[38,40,78,89]
-console.log(typeof size);
+var size=['s','m','l','xl']
+var price =[38,40,78,89]
+console.log(size,price);
+
